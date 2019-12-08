@@ -1,0 +1,31 @@
+{
+  "name": "smartver",
+  "version": "1.0.0",
+  "description": "A tool to help with git-npm versioning woes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/munchkinhalfling/smartver.git"
+  },
+  "keywords": [
+    "versioning",
+    "cli",
+    "git",
+    "npm"
+  ],
+  "author": "munchkinhalfling <munchkinhalfling@pm.me>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/munchkinhalfling/smartver/issues"
+  },
+  "homepage": "https://github.com/munchkinhalfling/smartver#readme",
+  "bin": {
+    "smartver": "cli.sh"
+  },
+  "dependencies": {
+    "yargs": "^15.0.2"
+  }
+}
