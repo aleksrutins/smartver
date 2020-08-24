@@ -1,0 +1,8 @@
+name: munchkinhalfling/smartver
+sourceType: git
+source: git://github.com/munchkinhalfling/smartver.git
+scripts:
+  install:
+    - install -Dt $(PREFIX)/bin -m 755 cli.sh
+bin:
+  smartver: bin/cli.sh
